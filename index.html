@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM chat app</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/whatsapp.png" alt="">
+            <h1>DM</h1>
+        </div>
+        <div class="message__area"></div>
+        <div id="textbox">
+            <textarea id="textarea" class="alignleft" cols="30" rows="1" placeholder="Write a message..."></textarea>
+
+            <button id="send"class="alignright"><span class="material-symbols-outlined "
+                    style="color: rgb(78, 99, 234);">send</span></button>
+
+
+
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
